@@ -1,6 +1,4 @@
 .container {
-    display: flex;
-    flex-direction: row;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -30,12 +28,23 @@ img {
     padding: 10px;
 }
 
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 20px;
+}
+
 .scroll {
     display: flex; /* [1] */
     flex-wrap: nowrap; /* [1] */
     overflow-x: auto; /* [1] */
     -webkit-overflow-scrolling: touch; /* [4] */
-    -ms-overflow-style: -ms-autohiding-scrollbar; /* [5] */ }
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* [5] */
+    align-items: flex-end;
+}
   
   /* [6] */
   .scroll::-webkit-scrollbar {
@@ -44,11 +53,19 @@ img {
     .item {
         flex: 0 0 auto; }
 
+
 .centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.centerPContent {
+    display: flex;
     justify-content: center;
 }
 
 .makeStick {
     display: block;
+    justify-content: center;
 }
       
