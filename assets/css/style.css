@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+img {
+    width: 400px; 
+    height: 300px;
+    padding: 10px;
+}
+
+.scroll {
+    display: flex; /* [1] */
+    flex-wrap: nowrap; /* [1] */
+    overflow-x: auto; /* [1] */
+    -webkit-overflow-scrolling: touch; /* [4] */
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* [5] */ }
+  
+  /* [6] */
+  .scroll::-webkit-scrollbar {
+    display: none; }
+
+    .item {
+        flex: 0 0 auto; }
+
+.centerContent {
+    justify-content: center;
+}
+
+.makeStick {
+    display: block;
+}
+      
