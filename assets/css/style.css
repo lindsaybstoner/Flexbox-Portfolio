@@ -8,6 +8,7 @@ header {
 
 h1 {
     font-size: 3rem;
+    padding: 10px;
 }
 
 nav {
@@ -15,11 +16,17 @@ nav {
 }
 
 a {
+    color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color:gray;
 }
 
 p {
     font-size: 1.2rem;
+    padding: 7px 20px;
 }
 
 img {
@@ -68,4 +75,15 @@ li {
     display: block;
     justify-content: center;
 }
-      
+
+.extraLeft {
+    padding-left: 20px;
+}
+
+.extraRight {
+    padding-right: 20px;
+}
+
+.bottomRoom {
+    padding-bottom: 20px;
+}
