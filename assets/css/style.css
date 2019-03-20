@@ -8,7 +8,7 @@ header {
 
 h1 {
     font-size: 3rem;
-    padding: 10px;
+    padding: 15px 10px 10px 10px;
 }
 
 nav {
@@ -24,6 +24,11 @@ a:hover {
     color:gray;
 }
 
+h2 {
+    font-size: 1.3rem;
+    padding: 15px 10px 10px 10px;
+}
+
 p {
     font-size: 1.2rem;
     padding: 7px 20px;
@@ -31,6 +36,12 @@ p {
 }
 
 img {
+    width: 400px; 
+    height: 300px;
+    padding: 10px;
+}
+
+video {
     width: 400px; 
     height: 300px;
     padding: 10px;
@@ -85,6 +96,14 @@ li {
 }
 
 .pushDown {
-    padding-top: 4%;
-    padding-bottom: 8%;
+    padding-top: 3%;
+}
+
+.pushDown2 {
+    padding-bottom: 6%;
+}
+
+.centerPContent {
+    display: flex;
+    justify-content: center;
 }
