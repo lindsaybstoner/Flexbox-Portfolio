@@ -55,23 +55,55 @@ ul {
 li {
     padding: 20px;
 }
-
+/* 
 .scroll {
-    display: flex; /* [1] */
-    flex-wrap: nowrap; /* [1] */
-    overflow-x: auto; /* [1] */
-    -webkit-overflow-scrolling: touch; /* [4] */
-    -ms-overflow-style: -ms-autohiding-scrollbar; /* [5] */
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
     align-items: flex-end;
 }
   
-  /* [6] */
+  
   .scroll::-webkit-scrollbar {
     display: none; }
 
     .item {
         flex: 0 0 auto; }
 
+ */
+
+ .horizontal-scroll-wrapper {
+    width: 500px;
+    height: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .horizontal-scroll-wrapper > img {
+    width: 400px; 
+    height: 300px;
+  }
+
+  .horizontal-scroll-wrapper {
+    
+    transform: rotate(-90deg);
+    transform-origin: right top;
+  }
+  
+
+  .horizontal-scroll-wrapper > img {
+    
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+
+  .horizontal-scroll-wrapper {
+    
+    transform:rotate(-90deg) translateY(-100px);
+
+  }
 
 .centerContent {
     display: flex;
