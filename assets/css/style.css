@@ -55,7 +55,7 @@ ul {
 li {
     padding: 20px;
 }
-/* 
+
 .scroll {
     display: flex;
     flex-wrap: nowrap; 
@@ -72,9 +72,9 @@ li {
     .item {
         flex: 0 0 auto; }
 
- */
 
- .horizontal-scroll-wrapper {
+
+/*  .horizontal-scroll-wrapper {
     width: 500px;
     height: 1000px;
     overflow-y: auto;
@@ -103,7 +103,7 @@ li {
     
     transform:rotate(-90deg) translateY(-100px);
 
-  }
+  } */
 
 .centerContent {
     display: flex;
