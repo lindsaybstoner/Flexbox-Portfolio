@@ -124,18 +124,22 @@ li {
 }
 
 .bottomRoom {
-    padding-bottom: 3.5%;
+    padding-bottom: 1.2%;
 }
 
-.pushDown {
+/* .pushDown {
     padding-top: 3%;
-}
+} */
 
 .pushDown2 {
-    padding-bottom: 6%;
+    padding-bottom: 6.5%;
 }
 
 .centerPContent {
     display: flex;
     justify-content: center;
+}
+
+.sidePadding{
+    padding: 0px 20px 0px 20px;
 }
