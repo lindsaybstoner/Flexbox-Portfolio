@@ -143,3 +143,7 @@ li {
 .sidePadding{
     padding: 0px 20px 0px 20px;
 }
+
+.extraSpace {
+    padding: 10px 0px;
+}
