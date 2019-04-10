@@ -56,7 +56,7 @@ li {
     padding: 20px;
 }
 
-.scroll {
+/* .scroll {
     display: flex;
     flex-wrap: nowrap; 
     overflow-x: auto;
@@ -71,10 +71,10 @@ li {
 
     .item {
         flex: 0 0 auto; }
+ */
 
-
-
-/*  .horizontal-scroll-wrapper {
+/* 
+.horizontal-scroll-wrapper {
     width: 500px;
     height: 1000px;
     overflow-y: auto;
@@ -93,7 +93,7 @@ li {
   }
   
 
-  .horizontal-scroll-wrapper > img {
+  .horizontal-scroll-wrapper > video {
     
     transform: rotate(90deg);
     transform-origin: right top;
@@ -142,4 +142,8 @@ li {
 
 .sidePadding{
     padding: 0px 20px 0px 20px;
+}
+
+.spaceBetween {
+    padding: 10px 0px 10px 0px;
 }
